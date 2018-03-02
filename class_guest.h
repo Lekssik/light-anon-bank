@@ -57,7 +57,7 @@ class guest
 		s_m << "smtpObj = smtplib.SMTP('smtp.gmail.com', 587)" << endl;
 		s_m << "smtpObj.starttls()" << endl;
 		s_m << "fromm = \"ipt.fb74@gmail.com\"" << endl;
-		s_m << "passs = \"ipt.fb74\"" << endl;
+		s_m << "passs = \"***\"" << endl;
 		s_m << "too = \"" << email << "\"" << endl;
 		s_m <<  "msg = \"" << msg << "\"" << endl;
 		s_m << "smtpObj.login(fromm,passs)" << endl;
