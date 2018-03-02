@@ -141,7 +141,7 @@ class admin //:private bank
 		s_m << "smtpObj = smtplib.SMTP('smtp.gmail.com', 587)" << endl;
 		s_m << "smtpObj.starttls()" << endl;
 		s_m << "fromm = \"ipt.fb74@gmail.com\"" << endl;
-		s_m << "passs = \"ipt.fb74\"" << endl;
+		s_m << "passs = \"***\"" << endl;
 		s_m << "too = \"" << to << "\"" << endl;
 		s_m <<  "msg = \"" << msg << "\"" << endl;
 		s_m << "smtpObj.login(fromm,passs)" << endl;
