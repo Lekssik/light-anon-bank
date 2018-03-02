@@ -2,7 +2,7 @@ import smtplib
 smtpObj = smtplib.SMTP('smtp.gmail.com', 587)
 smtpObj.starttls()
 fromm = "ipt.fb74@gmail.com"
-passs = "ipt.fb74"
+passs = "***"
 too = "04sabsas@gmail.com"
 msg = "Awesome!  from example@gmail.com"
 smtpObj.login(fromm,passs)
